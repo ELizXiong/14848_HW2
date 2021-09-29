@@ -1,0 +1,3 @@
+14848 HW2 First Container URLs:
+docker pull elizxiong/hellopython:latesthttps://hub.docker.com/repository/docker/elizxiong/hellopythonDockerfile Contents:From python:latestCopy . /usr/src/hw1WORKDIR /usr/src/hw1CMD ["python","hello.py"]On GCP:Image URL: 
+gcr.io/static-protocol-327314/elizxiong/hellopython@sha256:167a9fbce7df65d29047cfbb6436fc2a3dcfc2c28581a33ca40e49cce85f2618Cluster Info:https://console.cloud.google.com/logs/query;query=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22hellopython%22%0Aresource.labels.revision_name%3D%22hellopython-00002-lep%22;cursorTimestamp=2021-09-29T02:59:35.799301363Z?project=static-protocol-327314 
