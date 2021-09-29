@@ -1,5 +1,5 @@
 # 14848_HW2
-
+## Please see screenshots and details in the Docker folder
 ## First Container
 ### URLs:
 
