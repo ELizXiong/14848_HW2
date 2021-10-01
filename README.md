@@ -11,9 +11,13 @@ https://hub.docker.com/repository/docker/elizxiong/hellopython
 ### Dockerfile Contents:
 
 From python:latest
+
 Copy . /usr/src/hw1
+
 WORKDIR /usr/src/hw1
+
 CMD ["python","hello.py"]
+
 
 <img width="1204" alt="first Docker image" src="https://user-images.githubusercontent.com/60122319/135212981-17798acc-d88f-42ad-b604-8678e00d5f18.png">
 
@@ -35,6 +39,9 @@ https://console.cloud.google.com/logs/query;query=resource.type%3D%22cloud_run_r
 ## Second Container
 ### Run the container output:
 <img width="872" alt="second container output" src="https://user-images.githubusercontent.com/60122319/135213299-fa2f7b37-9c9e-4ee0-a9cb-33f9b2a4e7c5.png">
+
+### Commands used to get the above result:
+<img width="591" alt="second container commands" src="https://user-images.githubusercontent.com/60122319/135554207-1df57932-55b6-4e39-8a8c-38dedac76091.png">
 
 ## Extra Credit
 ### Kubernetes cluster on GCP Output:
